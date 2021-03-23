@@ -1,0 +1,22 @@
+{
+  "name": "PizzaAPI",
+  "version": "1.0.0",
+  "description": "Pizza-API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2",
+    "mongoose-paginate-v2": "^1.3.16",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
