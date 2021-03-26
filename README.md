@@ -13,14 +13,15 @@ Schema de Pizza-API:
 {
 	nombre: 'Pizza Loca',
 	categoria: 'Pizza',
-	direccion: 'Centro de curnavaca, Morelos',
+	direccion: 'Dirección',
 	telefono: '(777)111-1111',
 	website: 'https://www.pizzahit.com.mx',
-	imagen: 'Pizza Hit',
+	imagen: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fpizza%2Fpizza_PNG44088.png&f=1&nofb=1',
 	pizzas: [
 		{
 			nombre: 'Pizza Pepperoni',
-			descripcion: 'Pizza tradicional con salsa pomodoro, queso, pepperoni, orégano y especias de la casa.'
+			descripcion: 'Pizza tradicional con salsa pomodoro, queso, pepperoni, orégano y especias de la casa.',
+			imagen: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fpizza%2Fpizza_PNG44088.png&f=1&nofb=1"
 		}
 	]
 }
